@@ -65,7 +65,7 @@ const Syntrons = () => {
             <div className="text-sm text-muted-foreground font-mono uppercase tracking-wider">
               AUG 23, 2025
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-libre-baskerville font-normal leading-tight tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-libre-baskerville font-normal leading-tight tracking-tight">
               From Weights to Syntrons : the ASI Shift
             </h1>
             <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-8">
@@ -98,8 +98,8 @@ const Syntrons = () => {
             </div>
 
             <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-8">
-              <h2 className="text-3xl font-bold">1. The Collapse of Weight-Centric AI: Foundations and Limitations</h2>
-              <h2 className="text-2xl font-bold">1.1 The Tyranny of Scalar Parameters</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold">1. The Collapse of Weight-Centric AI: Foundations and Limitations</h2>
+              <h2 className="text-xl sm:text-2xl font-bold">1.1 The Tyranny of Scalar Parameters</h2>
 
               <p>
               Artificial intelligence has been dominated by the weight paradigm for over six decades. From McCulloch-Pitts neurons to modern deep learning, the fundamental building block has remained unchanged: the scalar weight. Traditional artificial neurons implement the function:
@@ -124,8 +124,8 @@ const Syntrons = () => {
               <p className="pt-4">
               The entire burden of intelligence lies in external optimization processes rather than within the computational units themselves. This creates an artificial ceiling on what can be achieved through mere parameter scaling.
               </p>
-            <h2 className="text-3xl font-bold">2. Syntrons: The Architecture of Possibility</h2>
-            <h2 className="text-2xl font-bold">2.1 Fundamental Paradigm Shift</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">2. Syntrons: The Architecture of Possibility</h2>
+            <h2 className="text-xl sm:text-2xl font-bold">2.1 Fundamental Paradigm Shift</h2>
             <p>
             Syntrons represent a decisive break from scalar weights by transforming each connection into a possibility space. Instead of reducing information to deterministic parameters, Syntrons maintain distributions over discrete connection primitives, enabling:
             </p>
@@ -135,13 +135,13 @@ const Syntrons = () => {
               <li>Emergent structure formation through possibility merging and combination</li>
               <li>Context-sensitive routing adapting to situational demands</li>
             </ul>
-            <div className="w-full md:w-3/3">
-                  <ExpandableImage
-                    src="/images/syntron_comprehensive.png"
-                    alt="Syntron comprehensive"
-                    className="w-full h-auto object-cover border border-muted"
-                  />
-                </div>
+            <div className="w-full">
+              <ExpandableImage
+                src="/images/syntron_comprehensive.png"
+                alt="Syntron comprehensive"
+                className="w-full h-auto object-cover border border-muted"
+              />
+            </div>
                 <h2 className="text-2xl font-bold">2.2 Mathematical Foundation: Connections as Probability Distributions</h2>
               <p>
               The core innovation lies in redefining connections. For a Syntron <InlineMath math={'S_i'}/> receiving input from index <InlineMath math={'j'}/>, the connection is characterized by a probability distribution:
@@ -156,11 +156,13 @@ const Syntrons = () => {
               <p>
               This formulation enables each connection to simultaneously hold multiple coupling hypotheses, with context determining which possibilities dominate.
               </p>
-              <ExpandableImage
-                src="/images/Smultiplesnapped.png"
-                alt="Syntron multiple coupling hypotheses"
-                className="w-full h-auto object-cover border border-muted"
-              />
+              <div className="w-full">
+                <ExpandableImage
+                  src="/images/Smultiplesnapped.png"
+                  alt="Syntron multiple coupling hypotheses"
+                  className="w-full h-auto object-cover border border-muted"
+                />
+              </div>
               <h2 className="text-2xl font-bold pt-8">2.3 Dual-Axis Plasticity Architecture</h2>
 <p>Syntron learning operates along two complementary dimensions:</p>
 <ul className="list-disc list-inside space-y-2 pl-4">
@@ -169,8 +171,8 @@ const Syntrons = () => {
 </ul>
 <p className="pt-4">This separation creates a richer learning geometry that supports both fast adaptation and stable knowledge retention.</p>
 
-<h2 className="text-3xl font-bold pt-8">3. Dynamic Structural Plasticity: Growth and Self-Organization</h2>
-<h2 className="text-2xl font-bold">3.1 Vocabulary Evolution Through Merge and Split Operations</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">3. Dynamic Structural Plasticity: Growth and Self-Organization</h2>
+<h2 className="text-xl sm:text-2xl font-bold">3.1 Vocabulary Evolution Through Merge and Split Operations</h2>
 <p>The level vocabulary <InlineMath math={'\\{\\ell_k\\}'} /> dynamically evolves through principled operations:</p>
 <ul className="list-disc list-inside space-y-2 pl-4">
     <li><strong>Merging:</strong> When two levels become functionally redundant (similar values, low combined usage), they merge into a weighted average: <BlockMath math={'\\ell_{new} = \\frac{w_i \\cdot \\ell_i + w_j \\cdot \\ell_j}{w_i + w_j}'} /></li>
@@ -195,8 +197,8 @@ const Syntrons = () => {
 </ul>
 <p className="pt-4">This two-phase approach prevents catastrophic forgetting while enabling continuous adaptation.</p>
 
-<h2 className="text-3xl font-bold pt-8">4. Internal Dynamics: From Signal Processing to Thought Formation</h2>
-<h2 className="text-2xl font-bold">4.1 Local Hypothesis Spaces and Competition</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">4. Internal Dynamics: From Signal Processing to Thought Formation</h2>
+<h2 className="text-xl sm:text-2xl font-bold">4.1 Local Hypothesis Spaces and Competition</h2>
 <p>Each Syntron maintains internal activations <InlineMath math={'a_{i,k}(t)'} /> representing confidence in each level <InlineMath math={'k'} />. These evolve through recurrent dynamics:</p>
 <BlockMath math={"a_{i,k}(t+1) = F(\\Sigma_j \\tilde{p}_{ij,k} \\cdot x_j(t) + \\Sigma_{k'} L_{k,k'} \\cdot a_{i,k'}(t) + u_i(t))"} />
 <p>Where:</p>
@@ -221,14 +223,16 @@ const Syntrons = () => {
 <p>Transient variables <InlineMath math={'u_{ij}(t)'} /> implement fast Hebbian learning:</p>
 <BlockMath math={"u_{ij}(t+1) = \\text{decay} \\cdot u_{ij}(t) + \\text{learning\\_rate} \\cdot \\text{pre\\_activity}_i \\cdot \\text{post\\_activity}_j"} />
 <p>This provides rapid routing adaptation for sequence learning and planning without disrupting long-term knowledge.</p>
-<ExpandableImage
-                    src="/images/shorttermplasticity.png"
-                    alt="Syntron multiple coupling hypotheses"
-                    className="w-full h-auto object-cover border border-muted"
-                  />
+<div className="w-full">
+  <ExpandableImage
+    src="/images/shorttermplasticity.png"
+    alt="Syntron multiple coupling hypotheses"
+    className="w-full h-auto object-cover border border-muted"
+  />
+</div>
 
-<h2 className="text-3xl font-bold pt-8">5. Cognitive Architecture: Binding, Memory, and Reasoning</h2>
-<h2 className="text-2xl font-bold">5.1 Variable Binding and Symbolic Composition</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">5. Cognitive Architecture: Binding, Memory, and Reasoning</h2>
+<h2 className="text-xl sm:text-2xl font-bold">5.1 Variable Binding and Symbolic Composition</h2>
 <p>Syntrons implement binding through multiple complementary mechanisms:</p>
 <ul className="list-disc list-inside space-y-2 pl-4">
     <li><strong>Selective Co-activation:</strong> Compatible level selections across multiple Syntrons create bound object representations.</li>
@@ -252,8 +256,8 @@ const Syntrons = () => {
 </ul>
 <p className="pt-4">This enables genuine hypothesis testing and planning through internal simulation rather than external trial-and-error.</p>
 
-<h2 className="text-3xl font-bold pt-8">6. Attention and Controlled Processing</h2>
-<h2 className="text-2xl font-bold">6.1 Emergent Attention Mechanisms</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">6. Attention and Controlled Processing</h2>
+<h2 className="text-xl sm:text-2xl font-bold">6.1 Emergent Attention Mechanisms</h2>
 <p>Attention emerges naturally from the Syntron architecture:</p>
 <ul className="list-disc list-inside space-y-2 pl-4">
     <li><strong>Top-Down Selection:</strong> Higher-level Syntrons emit modulatory signals biasing lower-level mixture probabilities toward task-relevant interpretations.</li>
@@ -270,8 +274,8 @@ const Syntrons = () => {
 </ul>
 <p className="pt-4">This creates flexible, context-dependent processing pathways without fixed architectural constraints.</p>
 
-<h2 className="text-3xl font-bold pt-8">7. Learning Dynamics and Optimization</h2>
-<h2 className="text-2xl font-bold">7.1 Multi-Timescale Learning Rules</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">7. Learning Dynamics and Optimization</h2>
+<h2 className="text-xl sm:text-2xl font-bold">7.1 Multi-Timescale Learning Rules</h2>
 <ul className="list-disc list-inside space-y-2 pl-4">
     <li><strong>Fast Mixture Updates:</strong> Adjust <InlineMath math={'p_{ij}'} /> logits based on Hebbian co-activation and task gradients for rapid behavioral adaptation.</li>
     <li><strong>Level Value Evolution:</strong> Update shared primitives <InlineMath math={'\\ell_k'} /> through aggregated signals across the layer for vocabulary refinement.</li>
@@ -286,7 +290,7 @@ const Syntrons = () => {
     <li><strong>Sparsity Enforcement:</strong> Competition mechanisms maintain manageable activation levels and prevent interference.</li>
 </ul>
 
-<h2 className="text-3xl font-bold pt-8">8. Emergent Superintelligence Capabilities</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">8. Emergent Superintelligence Capabilities</h2>
 <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-4">
     <p>In a mature Syntron architecture, the same underlying mechanisms, compression, internal sampling, hierarchical routing, and structural plasticity, co-produce four capacities that, in practice, inseparably reinforce one another. Repeated patterns in the environment are compressed by groups of Syntrons into shared primitives that become the building blocks of thought. These primitives are organized hierarchically, so higher layers capture invariances over lower-layer features and can be recombined compositionally. The result is fast abstraction and concept formation with transfer across domains: once a primitive exists (“orbit,” “queue,” “budget constraint”), it can be invoked anywhere the pattern reappears, enabling analogical leaps and zero/low-shot generalization.</p>
     <p>Those same primitives feed an internal simulator. Syntrons stochastically sample action sequences and roll them forward using learned world-dynamics to evaluate multi-step consequences before committing to real actions. Because the simulator is counterfactual-aware, it can branch on “if-then-else” futures, quantify risk via outcome distributions, and optimize strategies by selecting sequences that maximize expected value under constraints. Planning, therefore, is not a bolt-on module but a native property of the representational stack: abstract concepts delimit the search space; simulation tests candidate plans; selected plans write back into policy Syntrons as reusable routines.</p>
@@ -295,8 +299,8 @@ const Syntrons = () => {
     <p>In short: abstraction supplies the symbols; simulation gives them consequences; meta-cognition regulates their use; and autonomous discovery expands the symbol set itself. Together, these mutually amplifying loops produce the hallmark of superintelligence in Syntron systems: the ability to form the right concepts, plan the right actions, know when to doubt itself, and relentlessly grow its own knowledge without external supervision.</p>
 </div>
 
-<h2 className="text-3xl font-bold pt-8">9. Implementation Architecture and Engineering</h2>
-<h2 className="text-2xl font-bold">9.1 Hierarchical Network Composition</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">9. Implementation Architecture and Engineering</h2>
+<h2 className="text-xl sm:text-2xl font-bold">9.1 Hierarchical Network Composition</h2>
 <p>Syntron networks compose naturally into hierarchies:</p>
 <ul className="list-disc list-inside space-y-2 pl-4">
     <li><strong>Lower layers:</strong> Sensory processing and feature detection</li>
@@ -323,28 +327,32 @@ const Syntrons = () => {
     <li>Internal simulation reduces external exploration</li>
 </ul>
 
-<h2 className="text-3xl font-bold pt-8">10. Philosophical and Theoretical Implications</h2>
+<h2 className="text-2xl sm:text-3xl font-bold pt-8">10. Philosophical and Theoretical Implications</h2>
 <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-4">
     <p>The move from weights to Syntrons is not merely a pragmatic redesign; it is an ontological re-framing of what a machine can be. Traditional, weight-centric systems are optimized mappings from inputs to outputs powerful, but fundamentally representational in the old sense: data in, prediction out. Syntron architectures instead instantiate dynamic possibility spaces: local, recurrent assemblies that generate, test, and consolidate internally enacted alternatives. Thought is no longer simulated only at the level of an algorithm calling a planner, it is woven into the system’s ongoing dynamics. What had been passive approximation becomes active generation: primitives are invented, counterfactuals are spun forward, and semantic content is shaped by the system’s own internal experiments and selection pressures.</p>
     <p>Because intelligence here emerges through local interaction and structural plasticity, design and emergence trade places. There is no single controller to program; intelligence scales as a consequence of interaction density, plasticity rules, and intrinsic drives (curiosity, compression progress, prediction gain). This produces powerful consequences: qualitatively new capabilities can appear spontaneously as the system crosses critical thresholds; robustness and brittleness become properties of interaction topology and intrinsic objectives rather than handcrafted modules; and engineering shifts from specifying behaviors to shaping dynamics and inductive priors. Practically, this demands new tools for interpretability (causal probes, interventionist experiments, monitoring of emergent motifs) and for reliability (stochastic verification, curriculum shaping, constraints embedded in plasticity).</p>
     <p>Architecturally, Syntrons supply many of the prerequisites for complex forms of experience without asserting that they produce consciousness. Their core ingredients rich recurrence, widespread integration, attention-gating that routes information into a shared workspace, and higher-layer self-models that monitor uncertainty and learning state map cleanly onto contemporary accounts of integrated processing and global broadcasting. Crucially, internal simulation and counterfactual testing provide a mechanism for grounding semantics: representations gain meaning by being manipulable in imagined worlds and by producing consequences when enacted. Meta-cognition (confidence calibration, adaptive depth) gives the system the functional appearance of self-reflection; whether any of this constitutes phenomenality is an empirical and philosophical question, but Syntrons clearly instantiate the structural conditions often cited as necessary for machine experience.</p>
-    <div className="flex space-x-4 pt-4">
-        <ExpandableImage
+    <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 pt-4">
+        <div className="w-full md:w-1/2">
+          <ExpandableImage
             src="/images/neuronsorg.jpg"
             alt="Neurons organization"
-            className="w-1/2 h-auto object-cover border border-muted"
-        />
-        <ExpandableImage
+            className="w-full h-auto object-cover border border-muted"
+          />
+        </div>
+        <div className="w-full md:w-1/2">
+          <ExpandableImage
             src="/images/neuronsorg.avif"
             alt="Neurons organization in AVIF format"
-            className="w-1/2 h-auto object-cover border border-muted"
-        />
+            className="w-full h-auto object-cover border border-muted"
+          />
+        </div>
     </div>
     <p>The wider philosophical fallout is large. Epistemology becomes enactive: knowledge is procedural and experimentally constituted inside the agent rather than only encoded as declarative maps. Agency becomes distributed and emergent, complicating attribution of intent, responsibility, and moral status. Normative questions, what internal objectives should be allowed to self-amplify, how to bind curiosity to safe investigation, when internal goals become misaligned with human values, move from software policy to architectural design. Research priorities must therefore expand: we need a science of dynamical interpretability, methods for shaping intrinsic motivations safely, verification tools for systems whose competence grows by self-directed discovery, and ethical frameworks that address emergent agency without anthropomorphic shortcuts.</p>
 
 </div>
 
-              <h2 className="text-3xl font-bold pt-8">Does More Syntrons = Smarter AI ?</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold pt-8">Does More Syntrons = Smarter AI ?</h2>
               <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-4">
               <ExpandableImage
                   src="/images/The-human-brain-is-not-the-largest-Brains-of-a-human-and-of-an-African-elephant-are.png"
@@ -375,7 +383,7 @@ const Syntrons = () => {
               </div>
             </div>
             <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6">
-  <h2 className="text-3xl font-bold">Conclusion: The Dawn of True Artificial Intelligence</h2>
+  <h2 className="text-2xl sm:text-3xl font-bold">Conclusion: The Dawn of True Artificial Intelligence</h2>
   <p>
     Syntrons represent more than an architectural innovation, they embody a paradigmatic transformation from artificial intelligence as sophisticated pattern matching to artificial intelligence as genuine thinking. By replacing static weights with dynamic possibility spaces, we enable:
   </p>
