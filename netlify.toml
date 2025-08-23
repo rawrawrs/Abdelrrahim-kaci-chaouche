@@ -1,0 +1,22 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Custom domain configuration
+[context.production]
+  [context.production.environment]
+    CUSTOM_DOMAIN = "abdelrahim.com"
+
+# Handle PDF files with correct MIME type
+[[headers]]
+  for = "/pdfs/*"
+  [headers.values]
+    Content-Type = "application/pdf"
