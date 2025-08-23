@@ -72,7 +72,7 @@ const TrafpOdc = () => {
               </p>
               
               <p>
-                It opens the door to powerful visual understanding, without the usual barriers of data, time, or expertise. On this page, I share the full research paper, detailed methodology, and key insights to help you explore and understand this innovation. You can also read about my other research on <a href="/syntrons" className="text-blue-600 hover:underline">Syntrons</a>, a revolutionary departure from traditional weight-based neural architectures.
+                It opens the door to powerful visual understanding, without the usual barriers of data, time, or expertise. On this page, I share the full research paper, detailed methodology, and key insights to help you explore and understand this innovation.
               </p>
             </div>
             

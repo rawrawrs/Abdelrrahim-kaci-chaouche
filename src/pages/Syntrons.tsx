@@ -110,7 +110,7 @@ const Syntrons = () => {
                 Artificial intelligence has long been governed by the tyranny of weights. From perceptrons to deep neural networks, the foundations of AI have revolved around optimizing scalar parameters that connect inputs to outputs. These weights are tuned through gradient descent, forming a brittle scaffolding of statistical associations. This weight-centric paradigm, despite its immense success, has inherent limits: it compresses complexity into static numbers, leaving little room for emergence, meaning, or true adaptive intelligence.
               </p>
               <p>
-                The newly invented Syntrons a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence. This paradigm shift represents a fundamental leap from mechanism to mind. You can also read about my other research on <a href="/trafp-odc" className="text-blue-600 hover:underline">TRAFTP-ODC</a>, a training-free pipeline for object detection and classification.
+                The newly invented Syntrons a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence. This paradigm shift represents a fundamental leap from mechanism to mind.
               </p>
             </div>
 
