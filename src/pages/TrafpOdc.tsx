@@ -1,11 +1,48 @@
 
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
 const TrafpOdc = () => {
   return (
     <div className="min-h-screen bg-white text-foreground">
+      <Helmet>
+        <title>TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche</title>
+        <meta name="description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
+        <meta name="keywords" content="TRAFTP-ODC, object detection, classification, artificial intelligence, machine learning, training-free, Abderrahim Kaci Chaouche" />
+        <meta property="og:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche" />
+        <meta property="og:description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
+        <meta property="og:url" content="https://abdelrahim.com/trafp-odc" />
+        <meta name="twitter:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche" />
+        <meta name="twitter:description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
+        <link rel="canonical" href="https://abdelrahim.com/trafp-odc" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Training-Free Pipeline for Object Detection and Classification",
+            "description": "Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease.",
+            "author": {
+              "@type": "Person",
+              "name": "Abdel Rahim kaci Chaouche"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Abdel Rahim kaci Chaouche",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://abdelrahim.com/images/white-thumbnail.svg"
+              }
+            },
+            "datePublished": "2025-06-11",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://abdelrahim.com/trafp-odc"
+            }
+          })}
+        </script>
+      </Helmet>
       {/* Construction Banner */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-yellow-400 text-black text-center py-1 text-xs font-mono uppercase tracking-wider">
         Website Under Construction
@@ -35,7 +72,7 @@ const TrafpOdc = () => {
               </p>
               
               <p>
-                It opens the door to powerful visual understanding, without the usual barriers of data, time, or expertise. On this page, I share the full research paper, detailed methodology, and key insights to help you explore and understand this innovation.
+                It opens the door to powerful visual understanding, without the usual barriers of data, time, or expertise. On this page, I share the full research paper, detailed methodology, and key insights to help you explore and understand this innovation. You can also read about my other research on <a href="/syntrons" className="text-blue-600 hover:underline">Syntrons</a>, a revolutionary departure from traditional weight-based neural architectures.
               </p>
             </div>
             
@@ -100,6 +137,23 @@ const TrafpOdc = () => {
             </div>
           </div>
         </main>
+        
+        {/* Other Work Section */}
+        <div className="max-w-3xl mx-auto mt-16 px-6 md:px-8 pb-20">
+          <h2 className="text-2xl font-bold mb-6">Other Work</h2>
+          <a href="/syntrons" className="block group">
+            <div className="flex flex-col sm:flex-row items-center bg-muted/30 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow border border-muted cursor-pointer">
+              
+              <div className="flex-1 p-6 text-left">
+                <div className="text-xl font-semibold mb-2 group-hover:underline">Syntrons</div>
+                <div className="text-muted-foreground mb-1 text-sm font-mono uppercase tracking-wider">The ASI Shift</div>
+                <div className="text-base md:text-lg font-inter leading-relaxed">
+                  From Weights to Syntrons: A revolutionary departure from traditional weight-based neural architectures
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
         
         <Footer />
       </div>

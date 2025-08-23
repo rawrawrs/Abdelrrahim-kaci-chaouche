@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import 'katex/dist/katex.min.css';
@@ -58,6 +59,42 @@ const ExpandableImage = ({ src, alt, className = '' }: { src: string; alt: strin
 const Syntrons = () => {
   return (
     <div className="min-h-screen bg-white text-foreground">
+      <Helmet>
+        <title>Syntrons: The ASI Shift - Abdel Rahim kaci Chaouche</title>
+        <meta name="description" content="Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
+        <meta name="keywords" content="Syntrons, artificial intelligence, machine learning, neural networks, cognitive architecture, ASI, artificial superintelligence, Abderrahim Kaci Chaouche" />
+        <meta property="og:title" content="Syntrons: The ASI Shift - Abdel Rahim kaci Chaouche" />
+        <meta property="og:description" content="Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
+        <meta property="og:url" content="https://abdelrahim.com/syntrons" />
+        <meta name="twitter:title" content="Syntrons: The ASI Shift - Abdel Rahim kaci Chaouche" />
+        <meta name="twitter:description" content="Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
+        <link rel="canonical" href="https://abdelrahim.com/syntrons" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "From Weights to Syntrons: the ASI Shift",
+            "description": "Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence.",
+            "author": {
+              "@type": "Person",
+              "name": "Abdel Rahim kaci Chaouche"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Abdel Rahim kaci Chaouche",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://abdelrahim.com/images/white-thumbnail.svg"
+              }
+            },
+            "datePublished": "2025-08-23",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://abdelrahim.com/syntrons"
+            }
+          })}
+        </script>
+      </Helmet>
       <div className="pt-6">
         <Navigation />
         <main className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
@@ -73,7 +110,7 @@ const Syntrons = () => {
                 Artificial intelligence has long been governed by the tyranny of weights. From perceptrons to deep neural networks, the foundations of AI have revolved around optimizing scalar parameters that connect inputs to outputs. These weights are tuned through gradient descent, forming a brittle scaffolding of statistical associations. This weight-centric paradigm, despite its immense success, has inherent limits: it compresses complexity into static numbers, leaving little room for emergence, meaning, or true adaptive intelligence.
               </p>
               <p>
-                The newly invented Syntrons a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence. This paradigm shift represents a fundamental leap from mechanism to mind.
+                The newly invented Syntrons a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence. This paradigm shift represents a fundamental leap from mechanism to mind. You can also read about my other research on <a href="/trafp-odc" className="text-blue-600 hover:underline">TRAFTP-ODC</a>, a training-free pipeline for object detection and classification.
               </p>
             </div>
 
