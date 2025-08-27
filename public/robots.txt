@@ -6,15 +6,6 @@ Sitemap: https://abdelrahim.com/sitemap.xml
 # Host
 Host: https://abdelrahim.com
 
-# Directories
-Disallow: /api/
-Disallow: /admin/
-Disallow: /private/
-
-# File types
-Disallow: /*.log$
-Disallow: /*.env$
-
 # Crawl-delay for search engines
 Crawl-delay: 10
 

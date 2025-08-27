@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-xs text-muted-foreground font-inter">
-            © 2024 Abdel Rahim kaci Chaouche
+            © 2024 Abderrahim kaci Choauche
           </div>
           <div className="mt-2 md:mt-0">
             <a href="/sitemap.xml" className="text-xs text-muted-foreground font-inter hover:underline">
