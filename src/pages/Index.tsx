@@ -10,22 +10,22 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Helmet>
-        <title>Abdel Rahim kaci Chaouche - AI Researcher & Cognitive Architect</title>
-        <meta name="description" content="Explore groundbreaking AI research by Abdel Rahim kaci Chaouche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
-        <meta name="keywords" content="Abdel Rahim kaci Chaouche, artificial intelligence, machine learning, Syntrons, TRAFP-ODC, neuroscience, cognitive architecture, ASI, artificial superintelligence, AI research" />
-        <meta property="og:title" content="Abdel Rahim kaci Chaouche - AI Researcher & Cognitive Architect" />
-        <meta property="og:description" content="Explore groundbreaking AI research by Abdel Rahim kaci Chaouche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
+        <title>Abderrahim kaci Choauche - AI Researcher & Cognitive Architect</title>
+        <meta name="description" content="Explore groundbreaking AI research by Abderrahim kaci Choauche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
+        <meta name="keywords" content="Abderrahim kaci Choauche, artificial intelligence, machine learning, Syntrons, TRAFP-ODC, neuroscience, cognitive architecture, ASI, artificial superintelligence, AI research" />
+        <meta property="og:title" content="Abderrahim kaci Choauche - AI Researcher & Cognitive Architect" />
+        <meta property="og:description" content="Explore groundbreaking AI research by Abderrahim kaci Choauche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
         <meta property="og:url" content="https://abdelrahim.com/" />
-        <meta name="twitter:title" content="Abdel Rahim kaci Chaouche - AI Researcher & Cognitive Architect" />
-        <meta name="twitter:description" content="Explore groundbreaking AI research by Abdel Rahim kaci Chaouche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
+        <meta name="twitter:title" content="Abderrahim kaci Choauche - AI Researcher & Cognitive Architect" />
+        <meta name="twitter:description" content="Explore groundbreaking AI research by Abderrahim kaci Choauche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
         <link rel="canonical" href="https://abdelrahim.com/" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Abdel Rahim kaci Chaouche",
+            "name": "Abderrahim kaci Choauche",
             "url": "https://abdelrahim.com/",
-            "description": "Abdel Rahim kaci Chaouche is an AI researcher and cognitive architect specializing in artificial intelligence research, including Syntrons and TRAFP-ODC frameworks for artificial superintelligence.",
+            "description": "Abderrahim kaci Choauche is an AI researcher and cognitive architect specializing in artificial intelligence research, including Syntrons and TRAFP-ODC frameworks for artificial superintelligence.",
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://abdelrahim.com/"

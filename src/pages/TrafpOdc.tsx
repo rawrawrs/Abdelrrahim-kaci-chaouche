@@ -8,13 +8,13 @@ const TrafpOdc = () => {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Helmet>
-        <title>TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche</title>
+        <title>TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abderrahim kaci Choauche</title>
         <meta name="description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
-        <meta name="keywords" content="TRAFTP-ODC, object detection, classification, artificial intelligence, machine learning, training-free, Abdel Rahim kaci Chaouche, computer vision" />
-        <meta property="og:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche" />
+        <meta name="keywords" content="TRAFTP-ODC, object detection, classification, artificial intelligence, machine learning, training-free, Abderrahim kaci Choauche, computer vision" />
+        <meta property="og:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abderrahim kaci Choauche" />
         <meta property="og:description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
         <meta property="og:url" content="https://abdelrahim.com/trafp-odc" />
-        <meta name="twitter:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche" />
+        <meta name="twitter:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abderrahim kaci Choauche" />
         <meta name="twitter:description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
         <link rel="canonical" href="https://abdelrahim.com/trafp-odc" />
         <script type="application/ld+json">
@@ -25,11 +25,11 @@ const TrafpOdc = () => {
             "description": "Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease.",
             "author": {
               "@type": "Person",
-              "name": "Abdel Rahim kaci Chaouche"
+              "name": "Abderrahim kaci Choauche"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Abdel Rahim kaci Chaouche",
+              "name": "Abderrahim kaci Choauche",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://abdelrahim.com/images/white-thumbnail.svg"
