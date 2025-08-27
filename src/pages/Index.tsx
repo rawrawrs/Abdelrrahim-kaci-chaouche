@@ -3,8 +3,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
-import InteractiveUniverseSection from '../components/InteractiveUniverseSection';
-import DiscoverSection from '../components/DiscoverSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
@@ -12,14 +10,14 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Helmet>
-        <title>Abdel Rahim kaci Chaouche - Founder, Thinker</title>
-        <meta name="description" content="Personal website of Abdel Rahim kaci Chaouche - Founder and Thinker. Explore innovative research in artificial intelligence, including Syntrons and TRAFP-ODC." />
-        <meta name="keywords" content="Abdel Rahim kaci Chaouche, artificial intelligence, machine learning, Syntrons, TRAFP-ODC, neuroscience, cognitive architecture" />
-        <meta property="og:title" content="Abdel Rahim kaci Chaouche - Founder, Thinker" />
-        <meta property="og:description" content="Personal website of Abdel Rahim kaci Chaouche - Founder and Thinker. Explore innovative research in artificial intelligence, including Syntrons and TRAFP-ODC." />
+        <title>Abdel Rahim kaci Chaouche - AI Researcher & Cognitive Architect</title>
+        <meta name="description" content="Explore groundbreaking AI research by Abdel Rahim kaci Chaouche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
+        <meta name="keywords" content="Abdel Rahim kaci Chaouche, artificial intelligence, machine learning, Syntrons, TRAFP-ODC, neuroscience, cognitive architecture, ASI, artificial superintelligence, AI research" />
+        <meta property="og:title" content="Abdel Rahim kaci Chaouche - AI Researcher & Cognitive Architect" />
+        <meta property="og:description" content="Explore groundbreaking AI research by Abdel Rahim kaci Chaouche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
         <meta property="og:url" content="https://abdelrahim.com/" />
-        <meta name="twitter:title" content="Abdel Rahim kaci Chaouche - Founder, Thinker" />
-        <meta name="twitter:description" content="Personal website of Abdel Rahim kaci Chaouche - Founder and Thinker. Explore innovative research in artificial intelligence, including Syntrons and TRAFP-ODC." />
+        <meta name="twitter:title" content="Abdel Rahim kaci Chaouche - AI Researcher & Cognitive Architect" />
+        <meta name="twitter:description" content="Explore groundbreaking AI research by Abdel Rahim kaci Chaouche. Discover Syntrons and TRAFP-ODC frameworks pushing the boundaries of artificial superintelligence and cognitive architecture." />
         <link rel="canonical" href="https://abdelrahim.com/" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -27,31 +25,28 @@ const Index = () => {
             "@type": "Person",
             "name": "Abdel Rahim kaci Chaouche",
             "url": "https://abdelrahim.com/",
-            "jobTitle": "Founder, Thinker",
-            "description": "Abdel Rahim kaci Chaouche is a founder and thinker specializing in artificial intelligence research, including Syntrons and TRAFP-ODC.",
+            "description": "Abdel Rahim kaci Chaouche is an AI researcher and cognitive architect specializing in artificial intelligence research, including Syntrons and TRAFP-ODC frameworks for artificial superintelligence.",
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://abdelrahim.com/"
-            }
+            },
+            "jobTitle": "AI Researcher & Cognitive Architect",
+            "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Cognitive Architecture", "Artificial Superintelligence"],
+            "sameAs": [
+              "https://twitter.com/abdelrahim",
+              "https://linkedin.com/in/abdelrahim",
+              "https://github.com/abdelrahim"
+            ]
           })}
         </script>
       </Helmet>
-      {/* Construction Banner */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-yellow-400 text-black text-center py-1 text-xs font-mono uppercase tracking-wider">
-        Website Under Construction
-      </div>
-      
-      {/* Add top padding to account for the banner */}
       <div className="pt-6">
         <Navigation />
         <Hero />
-        <InteractiveUniverseSection />
-        <DiscoverSection />
-        <ContactSection />
         
-        {/* Other Work Section */}
-        <div className="max-w-3xl mx-auto mt-16 px-6 md:px-8 pb-20">
-          <h2 className="text-2xl font-bold mb-6">Other Work</h2>
+        {/* Previous Work Section */}
+        <div className="max-w-3xl mx-auto mt-16 px-6 md:px-8">
+          <h2 className="text-2xl font-bold mb-6">Previous Work</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <a href="/syntrons" className="block group">
               <div className="flex flex-col sm:flex-row items-center bg-muted/30 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow border border-muted cursor-pointer">
@@ -79,6 +74,11 @@ const Index = () => {
               </div>
             </a>
           </div>
+        </div>
+        
+        {/* Get in Touch Section */}
+        <div className="max-w-3xl mx-auto mt-16 px-6 md:px-8 pb-20">
+          <ContactSection />
         </div>
         
         <Footer />

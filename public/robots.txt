@@ -2,3 +2,28 @@ User-agent: *
 Allow: /
 
 Sitemap: https://abdelrahim.com/sitemap.xml
+
+# Host
+Host: https://abdelrahim.com
+
+# Directories
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# File types
+Disallow: /*.log$
+Disallow: /*.env$
+
+# Crawl-delay for search engines
+Crawl-delay: 10
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /*
+
+User-agent: Bingbot
+Allow: /*
+
+User-agent: Slurp
+Allow: /*

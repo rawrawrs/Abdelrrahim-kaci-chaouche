@@ -10,7 +10,7 @@ const TrafpOdc = () => {
       <Helmet>
         <title>TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche</title>
         <meta name="description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
-        <meta name="keywords" content="TRAFTP-ODC, object detection, classification, artificial intelligence, machine learning, training-free, Abderrahim Kaci Chaouche" />
+        <meta name="keywords" content="TRAFTP-ODC, object detection, classification, artificial intelligence, machine learning, training-free, Abdel Rahim kaci Chaouche, computer vision" />
         <meta property="og:title" content="TRAFTP-ODC: Training-Free Pipeline for Object Detection and Classification - Abdel Rahim kaci Chaouche" />
         <meta property="og:description" content="Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease." />
         <meta property="og:url" content="https://abdelrahim.com/trafp-odc" />
@@ -20,7 +20,7 @@ const TrafpOdc = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "TechArticle",
             "headline": "Training-Free Pipeline for Object Detection and Classification",
             "description": "Explore TRAFTP-ODC, a transformative leap in object detection that makes it possible to recognize objects without the need for training complex AI models. A fast, flexible, and user-friendly system that adapts to different visual tasks with ease.",
             "author": {
@@ -39,16 +39,11 @@ const TrafpOdc = () => {
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://abdelrahim.com/trafp-odc"
-            }
+            },
+            "keywords": "TRAFTP-ODC, object detection, classification, artificial intelligence, machine learning, training-free"
           })}
         </script>
       </Helmet>
-      {/* Construction Banner */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-yellow-400 text-black text-center py-1 text-xs font-mono uppercase tracking-wider">
-        Website Under Construction
-      </div>
-      
-      {/* Add top padding to account for the banner */}
       <div className="pt-6">
         <Navigation />
         

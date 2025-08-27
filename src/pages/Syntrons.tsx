@@ -61,20 +61,20 @@ const Syntrons = () => {
     <div className="min-h-screen bg-white text-foreground">
       <Helmet>
         <title>Syntrons: The ASI Shift - Abdel Rahim kaci Chaouche</title>
-        <meta name="description" content="Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
-        <meta name="keywords" content="Syntrons, artificial intelligence, machine learning, neural networks, cognitive architecture, ASI, artificial superintelligence, Abderrahim Kaci Chaouche" />
+        <meta name="description" content="Discover Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform AI from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
+        <meta name="keywords" content="Syntrons, artificial intelligence, machine learning, neural networks, cognitive architecture, ASI, artificial superintelligence, Abdel Rahim kaci Chaouche, weight-based neural networks, emergent thought" />
         <meta property="og:title" content="Syntrons: The ASI Shift - Abdel Rahim kaci Chaouche" />
-        <meta property="og:description" content="Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
+        <meta property="og:description" content="Discover Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform AI from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
         <meta property="og:url" content="https://abdelrahim.com/syntrons" />
         <meta name="twitter:title" content="Syntrons: The ASI Shift - Abdel Rahim kaci Chaouche" />
-        <meta name="twitter:description" content="Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
+        <meta name="twitter:description" content="Discover Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform AI from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence." />
         <link rel="canonical" href="https://abdelrahim.com/syntrons" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "ScholarlyArticle",
             "headline": "From Weights to Syntrons: the ASI Shift",
-            "description": "Explore Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence.",
+            "description": "Discover Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence.",
             "author": {
               "@type": "Person",
               "name": "Abdel Rahim kaci Chaouche"
@@ -91,7 +91,8 @@ const Syntrons = () => {
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://abdelrahim.com/syntrons"
-            }
+            },
+            "keywords": "Syntrons, artificial intelligence, machine learning, neural networks, cognitive architecture, ASI, artificial superintelligence"
           })}
         </script>
       </Helmet>
