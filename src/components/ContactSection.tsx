@@ -1,9 +1,8 @@
 import React from 'react';
-import PlanetSection from './PlanetSection';
 
 const ContactSection = () => {
   return (
-    <section className="min-h-screen bg-background text-foreground py-20 px-6 md:px-8" id="contact">
+    <section className="bg-background text-foreground py-20 px-6 md:px-8" id="contact">
       <div className="max-w-4xl mx-auto">
         <div className="mb-16">
           <div className="flex items-center gap-4 mb-8">
@@ -17,7 +16,7 @@ const ContactSection = () => {
         </div>
 
         {/* Simple Contact Section */}
-        <div className="max-w-3xl mx-auto mb-20">
+        <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -62,9 +61,6 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-
-        {/* Planet Section */}
-        <PlanetSection />
       </div>
     </section>
   );

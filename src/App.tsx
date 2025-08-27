@@ -8,7 +8,6 @@ import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import TrafpOdc from "./pages/TrafpOdc";
 import Syntrons from "./pages/Syntrons";
-import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -25,8 +24,6 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/TRAFP-ODC" element={<TrafpOdc />} />
             <Route path="/syntrons" element={<Syntrons />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </HelmetProvider>
