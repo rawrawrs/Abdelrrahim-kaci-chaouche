@@ -63,7 +63,7 @@ const TrafpOdc = () => {
             {/* Main Content Text */}
             <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-8">
               <p>
-                I am thrilled to introduce a transformative leap in object detection. This new approach makes it possible to recognize objects without the need for training complex AI models. It works by analyzing images, identifying key regions, and understanding their structure intelligently. Advanced techniques are used behind the scenes to match visual elements with reference examples. The result is a fast, flexible, and user-friendly system that adapts to different visual tasks with ease.
+                I am thrilled to introduce a transformative leap in object detection with TRAFP-ODC. This new approach makes it possible to recognize objects without the need for training complex AI models. It works by analyzing images, identifying key regions, and understanding their structure intelligently. Advanced techniques are used behind the scenes to match visual elements with reference examples. The result is a fast, flexible, and user-friendly system that adapts to different visual tasks with ease.
               </p>
               
               <p>

@@ -38,19 +38,19 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-2xl font-inter font-light mb-6">Connect</h3>
                 <div className="space-y-4">
-                  <a href="#" className="block p-4 border border-border hover:border-foreground transition-colors duration-300">
+                  <a href="https://www.youtube.com/@AbderrahimKaciChaouche" target="_blank" rel="noopener noreferrer" className="block p-4 border border-border hover:border-foreground transition-colors duration-300">
                     <div className="flex justify-between items-center">
-                      <span className="font-medium">GitHub</span>
+                      <span className="font-medium">YouTube</span>
                       <span>→</span>
                     </div>
                   </a>
-                  <a href="#" className="block p-4 border border-border hover:border-foreground transition-colors duration-300">
+                  <a href="https://www.linkedin.com/in/abdel-rahim-kaci-chaouche-ai/" target="_blank" rel="noopener noreferrer" className="block p-4 border border-border hover:border-foreground transition-colors duration-300">
                     <div className="flex justify-between items-center">
                       <span className="font-medium">LinkedIn</span>
                       <span>→</span>
                     </div>
                   </a>
-                  <a href="#" className="block p-4 border border-border hover:border-foreground transition-colors duration-300">
+                  <a href="https://x.com/AbderrahimKc" target="_blank" rel="noopener noreferrer" className="block p-4 border border-border hover:border-foreground transition-colors duration-300">
                     <div className="flex justify-between items-center">
                       <span className="font-medium">Twitter</span>
                       <span>→</span>
