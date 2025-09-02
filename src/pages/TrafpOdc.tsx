@@ -143,7 +143,7 @@ const TrafpOdc = () => {
                 <div className="text-xl font-semibold mb-2 group-hover:underline">Syntrons</div>
                 <div className="text-muted-foreground mb-1 text-sm font-mono uppercase tracking-wider">The ASI Shift</div>
                 <div className="text-base md:text-lg font-inter leading-relaxed">
-                  From Weights to Syntrons: A revolutionary departure from traditional weight-based neural architectures
+                  From Neurons to Syntrons: A revolutionary departure from traditional weight-based neural architectures
                 </div>
               </div>
             </div>

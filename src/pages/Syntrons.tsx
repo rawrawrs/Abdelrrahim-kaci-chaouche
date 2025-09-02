@@ -73,7 +73,7 @@ const Syntrons = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ScholarlyArticle",
-            "headline": "From Weights to Syntrons: the ASI Shift",
+            "headline": "From Neurons to Syntrons: the ASI Shift",
             "description": "Discover Syntrons, a revolutionary departure from traditional weight-based neural architectures. Syntrons transform artificial intelligence from static parameter optimization into dynamic possibility spaces, enabling genuine emergent thought, counterfactual reasoning, and self-organizing intelligence.",
             "author": {
               "@type": "Person",
@@ -104,7 +104,7 @@ const Syntrons = () => {
               AUG 23, 2025
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-libre-baskerville font-normal leading-tight tracking-tight">
-              From Weights to Syntrons : the ASI Shift
+              From Neurons to Syntrons : the ASI Shift
             </h1>
             <div className="text-base md:text-lg font-inter leading-relaxed max-w-3xl space-y-6 pt-8">
               <p>

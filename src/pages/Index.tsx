@@ -55,7 +55,7 @@ const Index = () => {
                   <div className="text-xl font-semibold mb-2 group-hover:underline">Syntrons</div>
                   <div className="text-muted-foreground mb-1 text-sm font-mono uppercase tracking-wider">The ASI Shift</div>
                   <div className="text-base md:text-lg font-inter leading-relaxed">
-                    From Weights to Syntrons: A revolutionary departure from traditional weight-based neural architectures
+                    From Neurons to Syntrons: A revolutionary departure from traditional weight-based neural architectures
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row items-center bg-muted/30 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow border border-muted cursor-pointer">
                 
                 <div className="flex-1 p-6 text-left">
-                  <div className="text-xl font-semibold mb-2 group-hover:underline">TRAFTP-ODC</div>
+                  <div className="text-xl font-semibold mb-2 group-hover:underline">Trafp ODC</div>
                   <div className="text-muted-foreground mb-1 text-sm font-mono uppercase tracking-wider">Training-Free Pipeline</div>
                   <div className="text-base md:text-lg font-inter leading-relaxed">
                     Training-Free Pipeline for Real-Time Object Detection and Classification
