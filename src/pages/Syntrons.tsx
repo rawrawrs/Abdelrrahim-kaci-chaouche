@@ -270,7 +270,7 @@ const Syntrons = () => {
             </div>
             
             {/* Other Work Section */}
-            <div className="max-w-3xl mx-auto mt-16">
+            <div className="max-w-3xl mx-auto mt-16 px-6 md:px-8 pb-20">
               <h2 className="text-2xl font-bold mb-6">Other Work</h2>
               <a href="/trafp-odc" className="block group">
                 <div className="flex flex-col sm:flex-row items-center bg-muted/30 rounded-xl overflow-hidden shadow hover:shadow-lg transition-shadow border border-muted cursor-pointer">
